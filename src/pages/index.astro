@@ -1,0 +1,73 @@
+---
+const profilePicture = "../assets/mi.jpg";
+import Main from "../layouts/Main.astro";
+import Cards from "../components/Cards.astro";
+---
+
+<Main title="Miller Ossa S">
+  <div class="profile">
+    <img
+      src={profilePicture}
+      alt="Frau katerina's website"
+      width="100px"
+      height="100px"
+      class="profile__picture"
+    />
+
+    <div class="profile__details">
+      <h1>Miller Ossa Samboni</h1>
+      <h2></h2>
+      <p>
+        Me gusta todo lo relacionado con el software libre, los retos de
+        programación, ethical hacking, hackthis.co.uk y wechall.net son sitios
+        que visito regularmente, cuando dispongo de tiempo corrijo mi código
+        hasta quedar satisfecho, mi lenguaje de programación favorito es python,
+        pero me puedo adaptar fácilmente a otro lenguaje.
+      </p>
+    </div>
+  </div>
+
+  <Cards cards={[
+     {
+        title: "Here are my guiding philosophies for life",
+        gradientFrom: "#818cf8",
+        gradientTo: "#d8b4fe",
+        to: "/philosophies",
+      },
+      {
+        title: "A summary of my work history",
+        gradientFrom: "#fde68a",
+        gradientTo: "#fca5a5",
+        to: "/work-summary",
+      },
+      {
+        title: "What I do beyond technology",
+        gradientFrom: "#6ee7b7",
+        gradientTo: "#9333ea",
+        to: "/beyond-tech",
+      }
+  ]}/>
+</Main>
+
+<style>
+  .profile {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem 0 3rem 0;
+  }
+  .profile__details {
+    flex: 1 0 300px;
+  }
+  .profile__details > h1 {
+    margin-top: 0;
+  }
+  .profile__picture {
+    border-radius: 50%;
+    margin: 0 2rem 1rem 0;
+  }
+</style>
+
+<script>
+  console.log("HELLOOO");
+</script>
