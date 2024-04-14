@@ -1,10 +1,16 @@
 ---
 layout: '../layouts/Blog.astro'
-title: 'Beyond tecnology'
-subtitle: 'Humans are multi-faced. beylond tecnology, I indulge in the following'
+title: 'Front-End Developer'
+subtitle: 'Highly skilled Front-end developer with four years of experience in creating dynamic and responsive web interfaces. Expert in technologies such as HTML5, CSS3 and JavaScript'
 poster: '/images/beyond.jpg'
 
 ---
 
-- 5X Marathoner
-- Olympic gold medalist
+- Front-end development: HTML5, CSS3, JavaScript
+- Frameworks: React.js, Angular, Vue.js
+- Responsive and Adaptive Design
+- RESTful APIs Integration
+- Web Performance Optimization
+- Version Control with Git
+- Testing and Debugging
+- Teamwork and Collaboration
